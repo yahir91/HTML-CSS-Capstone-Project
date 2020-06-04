@@ -1,0 +1,40 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto !important;
+}
+
+.top-header{
+    height: 30px;
+    background-color: #3e3e3e;
+    font-family: 'Lato', sans-serif;
+}
+
+.top-header img {
+    width: 17px;
+}
+
+.right-topnav {
+    margin-right: 90px;
+}
+
+.navbar {
+    color: #a1a1a1;
+    height: 80px
+}
+
+.navbar img {
+width:100px;
+margin-left: 200px
+}
+
+.center-nav {
+    margin-left: 120px;
+}
+
+.navbar span{
+    margin-right: 70px;
+}
+
+.campaign {
+    border-width: 10px !important;
+}
