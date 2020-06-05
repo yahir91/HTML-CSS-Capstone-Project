@@ -5,7 +5,7 @@ body {
 
 @font-face {
     font-family: "cocogoose";
-    src: url(assets/fonts/COCOGOOSE/Cocogoose_trial.otf)
+    src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf)
 }
 
 .top-header{
@@ -131,6 +131,7 @@ margin-left: 12%;
     justify-content: center;
     height: 100px;
     padding: 30px 0;
+    flex-wrap: wrap;
 }
 
 .partners img { 
@@ -143,11 +144,11 @@ margin-left: 12%;
 
 .bottom-footer img {
     width: 150px;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .bot-footer-right {
-    width: 600px;
+    max-width: 600px;
 }
 
 .option {
@@ -155,7 +156,5 @@ margin-left: 12%;
     height: 50px;
     top: 2%;
     left: 4%;
-
-
 }
 

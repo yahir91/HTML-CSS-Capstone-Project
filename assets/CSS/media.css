@@ -7,4 +7,17 @@
         padding: 15px;
         max-width: 400px;
     }
+    .partners {
+        display:flex;
+        justify-content: center;
+        height: 100px;
+        padding: 30px 0;
+        flex-wrap: wrap;
+    }
+
+    .top-footer {
+        height: 250px;
+        background-color: #424146;
+    }
+
 }
