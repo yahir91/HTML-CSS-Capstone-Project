@@ -38,3 +38,47 @@ margin-left: 200px
 .campaign {
     border-width: 10px !important;
 }
+
+.main-content {
+    background: url(assets/images/cropped-1920-1080-975294.jpg) 50% 100% no-repeat;
+    height: 770px;
+   
+}
+
+.main-text {
+    margin-left: 200px;
+    color: #ec5242
+}
+
+.main-content img {
+    opacity: .3;
+    height: 770px
+}
+
+.cont-text {
+    border: 3px solid rgb(238, 233, 233) !important;
+    padding: 15px;
+    max-width: 600px
+}
+
+.main-text h1, 
+.main-text h2,
+.main-text p {
+}
+
+.shops {
+    height:450px;
+    background-color: #272a31;
+    padding-right: 15px !important;
+}
+
+.section {
+    height: 200px;
+    background-color: #3e4148;
+    width:180px;
+}
+
+.movies {
+    top: 10%
+}
+
