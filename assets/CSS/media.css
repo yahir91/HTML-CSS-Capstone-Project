@@ -1,7 +1,15 @@
 @media only screen and (max-width: 767px) {
+    .main-text {
+        margin: 0 auto;
+    }
 
-
-
-
+    .cont-text {
+        padding: 15px;
+        max-width: 400px;
+    }
     
+
+
+
+
 }
