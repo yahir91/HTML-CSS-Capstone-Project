@@ -69,7 +69,6 @@ margin-left: 200px
 .shops {
     height:450px;
     background-color: #272a31;
-    padding-right: 15px !important;
 }
 
 .section {
@@ -79,6 +78,22 @@ margin-left: 200px
 }
 
 .movies {
-    top: 10%
+    top: 10%;
 }
 
+.featured {
+    font-family: 'Lato', sans-serif;
+}
+
+.featured img {
+    width: 140px;
+    height: 140px;
+}
+
+.gray-square {
+    z-index: -1;
+    top: -10%;
+    left: -.5%;
+    width: 70px!important;
+    height: 70px!important;
+}
