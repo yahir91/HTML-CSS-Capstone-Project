@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="assets/fonts/COCOGOOSE/Cocogoose_trial.otf">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/CSS/reset.css">
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/media.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="container-fluid">
-            <div class="top-header d-md-flex bg-dark text-light align-items-center justify-content-end">
+            <div class="top-header d-md-flex d-none bg-dark text-light align-items-center justify-content-end">
                 <div class="mr-4">
                     <img class="mx-1" src="assets/icons/facebook.svg" alt="facebook-logo">
                     <img class="mx-1" src="assets/icons/twitter.svg" alt="twitter logo">
@@ -27,16 +27,16 @@
                     <span class="mx-2">Log Out</span>
                 </div>
             </div>
-            <nav class="navbar d-flex p-0 m-0">
+            <nav class="navbar d-md-flex d-none shadow p-0 m-0">
                 <img class="" src="assets/images/logo.png" alt="logo">
-                <div class="center-nav">
-                    <span class="font-weight-bold text-danger">About</span>
-                    <span class="font-weight-bold">Ticket</span>
-                    <span class="font-weight-bold">Join</span>
-                    <span class="font-weight-bold">Sponsor</span>
-                    <span class="font-weight-bold">News</span>
+                <div class="center-nav text-center">
+                    <span class="font-weight-bold text-danger d-inline-block">About</span>
+                    <span class="font-weight-bold d-inline-block">Ticket</span>
+                    <span class="font-weight-bold d-inline-block">Join</span>
+                    <span class="font-weight-bold d-inline-block">Schedule</span>
                 </div>
-                <span class="p-md-2 border border-danger d-inline-block campaign">CC Campaign</span>
+                <a class="text-danger" href="#"><span class="p-2 px-5 border border-danger d-inline-block log-in">LOG
+                        IN</span></a>
             </nav>
         </div>
     </header>
@@ -71,61 +71,61 @@
                 </section>
 
                 <!-- Third section -->
-                <section class="featured col-12 row justify-content-center">
-                    <h2 class="col-12 text-center">Featured movies</h2>
+                <section class="featured col-12 row justify-content-center shadow no-gutters">
+                    <h2 class="col-12 text-center my-5">Featured movies</h2>
                     <div class="col-10 row">
                         <div class="col-6 d-flex my-4">
                             <img class="gray-square position-absolute" src="assets/images/gray-squares.png"
                                 alt="gray-squres">
                             <img class="img-fluid" src="assets/images/harry-potter.jpeg" alt="haary-potter">
-                            <div>
-                                <h3>Harry Potter</h3>
-                                <p>A child that the death watever</p>
+                            <div class="ml-4">
+                                <h3>Harry Potter and the Deadly Hollows</h3>
+                                <p class="font-italic">A child that the death watever</p>
                             </div>
                         </div>
                         <div class="col-6 d-flex my-4">
                             <img class="gray-square position-absolute" src="assets/images/gray-squares.png"
                                 alt="gray-squres">
                             <img class="img-fluid" src="assets/images/inception.jpeg" alt="inception">
-                            <div>
-                                <h3>Harry Potter</h3>
-                                <p>A child that the death watever</p>
+                            <div class="ml-4">
+                                <h3>Inception</h3>
+                                <p class="font-italic">A child that the death watever</p>
                             </div>
                         </div>
                         <div class="col-6 d-flex my-4">
                             <img class="gray-square position-absolute" src="assets/images/gray-squares.png"
                                 alt="gray-squres">
                             <img class="img-fluid" src="assets/images/legend.jpg" alt="i-am-legend">
-                            <div>
-                                <h3>Harry Potter</h3>
-                                <p>A child that the death watever</p>
+                            <div class="ml-4">
+                                <h3>I am Legend</h3>
+                                <p class="font-italic">A child that the death watever</p>
                             </div>
                         </div>
                         <div class="col-6 d-flex my-4">
                             <img class="gray-square position-absolute" src="assets/images/gray-squares.png"
                                 alt="gray-squres">
                             <img class="img-fluid" src="assets/images/no-strings-atacched.jpg" alt="no-strings">
-                            <div>
-                                <h3>Harry Potter</h3>
-                                <p>A child that the death watever</p>
+                            <div class="ml-4">
+                                <h3>No Strings Atacched</h3>
+                                <p class="font-italic">A child that the death watever</p>
                             </div>
                         </div>
                         <div class="col-6 d-flex my-4">
                             <img class="gray-square position-absolute" src="assets/images/gray-squares.png"
                                 alt="gray-squres">
                             <img class="img-fluid" src="assets/images/parasite.jpg" alt="parasite">
-                            <div>
-                                <h3>Harry Potter</h3>
-                                <p>A child that the death watever</p>
+                            <div class="ml-4">
+                                <h3>Parasite</h3>
+                                <p class="font-italic">A child that the death watever</p>
                             </div>
                         </div>
                         <div class="col-6 d-flex my-4">
                             <img class="gray-square position-absolute" src="assets/images/gray-squares.png"
                                 alt="gray-squres">
                             <img class="img-fluid" src="assets/images/star-wars.jpg" alt="star-wars">
-                            <div>
-                                <h3>Harry Potter</h3>
-                                <p>A child that the death watever</p>
+                            <div class="ml-4">
+                                <h3>Star Wars: The Last Jedi</h3>
+                                <p class="font-italic">A child that the death watever</p>
                             </div>
                         </div>
                     </div>
@@ -138,25 +138,29 @@
 
     <footer>
         <div class="container-fluid">
-          <div>
-              <h3>Partner</h3>
-          </div>
-          <div>
-              <img src="assets/images/mozilla.png" alt="mozilla">
-              <img src="assets/images/google.png" alt="google">
-              <img src="assets/images/naver.png" alt="naver">
-              <img src="assets/images/daumkakao.png" alt="daumkakao">
-              <img src="assets/images/airbnb.png" alt="">
-        </div>
-          
+            <div class="top-footer">
+                <div class="footer-heading text-center">
+                    <h3>Partner</h3>
+                </div>
+                <div class="partners">
+                    <img src="assets/images/mozilla.png" alt="mozilla">
+                    <img src="assets/images/google.png" alt="google">
+                    <img src="assets/images/naver.png" alt="naver">
+                    <img src="assets/images/daumkakao.png" alt="daumkakao">
+                    <img src="assets/images/airbnb.png" alt="airbnb">
+                </div>
+            </div>
+
+            <div class="bottom-footer shadow d-flex align-items-center justify-content-center">
+                <img class="" src="assets/images/logo.png" alt="logo">
+                <div class="bot-footer-right">
+                    <span>2020 Envision Cinema All rights reserved</span>
+                    <span></span>
+                </div>
 
 
 
-
-
-
-
-
+            </div>
         </div>
     </footer>
 
