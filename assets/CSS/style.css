@@ -10,6 +10,10 @@ body {
 
 /* HEADER */
 
+a {
+    text-decoration: none!important;
+}
+
 .top-header{
     height: 30px;
     background-color: #3e3e3e;
@@ -39,7 +43,7 @@ margin-left: 12%;
    width: 45%;
 }
 
-.center-nav span{
+.center-nav a{
     margin: 0 4%;
 }
 
@@ -94,6 +98,14 @@ margin-left: 12%;
     padding: 15px;
     max-width: 600px;
     background-color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.date {
+    font-family: 'cocogoose', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
 }
 
 /* SECOND SECTION */
@@ -150,8 +162,8 @@ margin-left: 12%;
 
 .gray-square {
     z-index: -1;
-    top: -10%;
-    left: -.5%;
+    top: -10px;
+    left: -2px;
     width: 70px!important;
     height: 70px!important;
 }

@@ -32,6 +32,11 @@
         height: 140px;
         background-color: #3e4148;
     }
+}
 
+@media only screen and (max-width: 550px) {
+    .featured p {
+        display: none;
+    }
 
 }
