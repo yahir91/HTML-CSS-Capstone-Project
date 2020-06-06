@@ -8,6 +8,8 @@ body {
     src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf)
 }
 
+/* HEADER */
+
 .top-header{
     height: 30px;
     background-color: #3e3e3e;
@@ -46,6 +48,27 @@ margin-left: 12%;
     margin-right: 30px;
 }
 
+.option {
+    width: 70px;
+    height: 50px;
+    top: 2%;
+    left: 4%;
+}
+
+.hidden {
+    top: 2%;
+    left: 6%;
+    z-index:4;
+}
+
+.hide {
+    opacity: 0
+}
+
+/* MAIN */
+
+/* FIRST SECTION */
+
 .main-content {
     height: 770px;
 }
@@ -73,20 +96,39 @@ margin-left: 12%;
     background-color: #f8f8f8;
 }
 
+/* SECOND SECTION */
+
 .shops {
     height:450px;
     background-color: #272a31;
 }
 
 .section {
-    height: 200px;
+    height: 250px;
     background-color: #3e4148;
-    width:180px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.section img {
+    width: 100px;
+    height: 100px;
+}
+
+.section h3 {
+    color: #ec5242;
+    font-size: 20px;
+}
+
+.section p {
+    font-size: 12px;
 }
 
 .movies {
-    top: 10%;
+    
 }
+
+/* THIRD SECTION */
 
 .featured {
     font-family: 'Lato', sans-serif;
@@ -113,6 +155,8 @@ margin-left: 12%;
     width: 70px!important;
     height: 70px!important;
 }
+
+/* FOOTER */
 
 .top-footer {
     height: 200px;
@@ -151,10 +195,4 @@ margin-left: 12%;
     max-width: 600px;
 }
 
-.option {
-    width: 70px;
-    height: 50px;
-    top: 2%;
-    left: 4%;
-}
 
