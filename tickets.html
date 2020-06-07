@@ -4,7 +4,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/CSS/reset.css">
-    <link rel="stylesheet" href="assets/CSS/about.css">
+    <link rel="stylesheet" href="assets/CSS/tickets.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -55,14 +55,19 @@
                     <a class="dropdown-item" href="#">Log In</a>
                 </div>
             </div>
-            <!-- MAIN SECTION -->
-            <div class="main row row-cols-1 justify-content-center text-center no-gutters">
+
+            <!-- TICKETS SECTION -->
+            <div class="tickets row row-cols-1 justify-content-center text-center no-gutters shadow">
                 <div class="col-12">
-                    <h1>Select tickets</h1>
+                    <h1 class="display-h2">Select tickets</h1>
                 </div>
-                <div class="col-6">
-                    <p><span>Step 1</span> Select the movie ticket you want to see</p>
+                <div class="step-2 col-4 border rounded-pill ">
+                    <p class="pt-2"><span class="text-danger mr-2">Step 1</span> Select the movie ticket you want to see
+                    </p>
                 </div>
+
+                <div class="w-100"></div>
+
                 <div class="col-7">
                     <table class="table table-bordered">
                         <thead>
@@ -78,28 +83,55 @@
                                 <th>Normal</th>
                                 <td class="text-danger">$10.00 <br><input type="radio" name="option" id="option1"></td>
                                 <td class="text-danger">$15.00 <br><input type="radio" name="option" id="option2"></td>
-                                <td class="text-danger">$20.00 <br><input type="radio" name="option" id="option2"></td>
+                                <td class="text-danger">$20.00 <br><input type="radio" name="option" id="option3"></td>
                             </tr>
                             <tr>
                                 <th>Student</th>
-                                <td class="text-danger">$7.00 <br><input type="radio" name="option" id="option2"></td>
-                                <td class="text-danger">$13.00 <br><input type="radio" name="option" id="option2"></td>
-                                <td class="text-danger">$18.00 <br><input type="radio" name="option" id="option2"></td>
+                                <td class="text-danger">$7.00 <br><input type="radio" name="option" id="option4"></td>
+                                <td class="text-danger">$13.00 <br><input type="radio" name="option" id="option5"></td>
+                                <td class="text-danger">$18.00 <br><input type="radio" name="option" id="option6"></td>
                             </tr>
                             <tr>
                                 <th>Premium</th>
-                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option2"></td>
-                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option2"></td>
-                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option2"></td>
+                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option7"></td>
+                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option8"></td>
+                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option9"></td>
                             </tr>
-
-
                         </tbody>
-
-
-
                     </table>
                 </div>
+            </div>
+
+            <!-- PROMO SECTION -->
+
+            <div class="promo row row-cols-1 justify-content-center align-items-center text-center no-gutters">
+                <div class="col-6">
+                    <h2>Select Your Lunch</h2>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="step-2 col-4 border rounded-pill align-items-center justify-content-center mb-4">
+                    <p class="pt-2"><span class="text-danger mr-2">Step 1</span> Select your preferred popcorn promo.
+                    </p>
+
+                </div>
+                <div class="col-9">
+                    <div>
+                        <h3 class="popcorns mb-0">Popcorns Promo</h3>
+                    </div>
+                    <div class="menu d-flex justify-content-center border align-items-center mb-4">
+                        <div class="mx-5"><span>menu 1 <input type="radio" name="menu" id="menu1"></span></div>
+                        <div class="mx-5"><span>menu 2 <input type="radio" name="menu" id="menu2"></span></div>
+                        <div class="mx-5"><span>menu 3 <input type="radio" name="menu" id="menu3"></span></div>
+                        <div class="mx-5"><span>menu 4 <input type="radio" name="menu" id="menu4"></span></div>
+                    </div>
+
+                </div>
+                <div>
+
+                </div>
+
 
 
 

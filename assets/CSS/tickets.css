@@ -71,13 +71,37 @@ margin-left: 12%;
 
 /* MAIN */
 
-.main {
+/* TICKETS SECTION */
 
+.tickets {
+    background-color: #f7f7f7;
+    
 }
 
 .table-head {
     background-color: #f7f7f7;
 }
+
+/* PROMO SECTION */
+
+.step-2 {
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.promo {
+    box-sizing: border-box;
+}
+
+.popcorns {
+    background-color: #f7f7f7;
+}
+
+.menu {
+    height: 90px;
+}
+
+
 
 /* FOOTER */
 
