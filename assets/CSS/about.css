@@ -96,37 +96,46 @@ margin-left: 12%;
     font-family: 'Lato', sans-serif;
 }
 
+/* LOGO SECTION */
 
+.logo-section {
+    font-family: 'Lato', sans-serif;
+    height: 300px;
+}
+
+.logo-section img {
+    width: 400px;
+    padding: 10px 90px;
+}
+
+/* PROJECTS SECTION */
+
+.projects {
+    height: 450px;
+}
+
+.project-img {
+    background-image: url(../images/cinema1.jpg);
+    width: 300px;
+    height: 200px;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+}
+
+.project-img-2 {
+    background-image: url(../images/cinema2.jpg);
+    width: 300px;
+    height: 200px;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+}
 
 
 /* FOOTER */
 
-.top-footer {
-    height: 200px;
-    background-color: #424146;
-}
-
-.footer-heading {
-    height: 100px;
-    padding-top: 30px;
-    color: #98979a;
-    font-family: 'Lato', sans-serif;
-}
-
-.partners {
-    display:flex;
-    justify-content: center;
-    height: 100px;
-    padding: 30px 0;
-    flex-wrap: wrap;
-}
-
-.partners img { 
-    margin: 0 1%;
-}
-
 .bottom-footer {
     height: 200px;
+    background-color: #3e3e3e;
 }
 
 .bottom-footer img {
