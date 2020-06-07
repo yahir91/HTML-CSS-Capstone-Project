@@ -1,0 +1,102 @@
+body {
+    max-width: 1400px;
+    margin: 0 auto !important;
+}
+
+@font-face {
+    font-family: "cocogoose";
+    src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf)
+}
+
+/* HEADER */
+
+a {
+    text-decoration: none!important;
+}
+
+.top-header{
+    height: 30px;
+    background-color: #3e3e3e;
+    font-family: 'Lato', sans-serif;
+}
+
+.top-header img {
+    width: 17px;
+}
+
+.right-topnav {
+    margin-right: 90px;
+}
+
+.navbar {
+    color: #a1a1a1;
+    height: 80px
+}
+
+.navbar img {
+width:100px;
+margin-left: 12%;
+}
+
+.center-nav {
+    margin-left: 3%;
+   width: 45%;
+}
+
+.center-nav a{
+    margin: 0 4%;
+}
+
+.log-in {
+    border-width: 10px !important;
+    margin-right: 30px;
+}
+
+.option {
+    width: 70px;
+    height: 50px;
+    top: 2%;
+    left: 4%;
+}
+
+.hidden {
+    top: 2%;
+    left: 6%;
+    z-index:4;
+}
+
+.hide {
+    opacity: 0
+}
+
+/* MAIN */
+
+.main {
+
+}
+
+.table-head {
+    background-color: #f7f7f7;
+}
+
+/* FOOTER */
+
+.bottom-footer {
+    height: 200px;
+    background-color: #3e3e3e;
+}
+
+.bottom-footer img {
+    width: 150px;
+    margin-right: 5%;
+}
+
+.bot-footer-right {
+    max-width: 600px;
+}
+
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width: 590px) {
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/reset.css">
+    <link rel="stylesheet" href="assets/CSS/about.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Tickets</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="top-header d-md-flex d-none bg-dark text-light align-items-center justify-content-end">
+                <div class="mr-4">
+                    <a href="#"><img class="mx-1" src="assets/icons/facebook.svg" alt="facebook-logo"></a>
+                    <a href="#"><img class="mx-1" src="assets/icons/twitter.svg" alt="twitter logo"></a>
+                </div>
+                <div class="right-topnav">
+                    <a href="#" class="mx-2 text-white">My Page</a>
+                    <a href="#" class="mx-2 text-white">English</a>
+                    <a href="#" class="mx-2 text-white">Log Out</a>
+                </div>
+            </div>
+            <nav class="navbar d-md-flex d-none shadow p-0 m-0">
+                <img class="" src="assets/images/logo.png" alt="logo">
+                <div class="center-nav nav text-center">
+                    <a class="font-weight-bold text-secondary" href="#">Home</a>
+                    <a class="font-weight-bold text-secondary" href="#">Tickets</a>
+                    <a class="font-weight-bold text-secondary" href="#">Schedule</a>
+                    <a class="font-weight-bold text-danger " href="#">About</a>
+                </div>
+                <a class="text-danger" href="#"><span class="p-2 px-5 border border-danger d-inline-block log-in">LOG
+                        IN</span></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <img class="position-absolute d-md-none option" src="assets/icons/menu-abierto.svg" alt="option">
+
+            <div class="dropdown position-absolute hidden d-md-none">
+                <a class="btn btn-secondary hide dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Home</a>
+                    <a class="dropdown-item" href="#">Tickets</a>
+                    <a class="dropdown-item" href="#">Schedule</a>
+                    <a class="dropdown-item active" href="#">About</a>
+                    <a class="dropdown-item" href="#">Log In</a>
+                </div>
+            </div>
+            <!-- MAIN SECTION -->
+            <div class="main row row-cols-1 justify-content-center text-center no-gutters">
+                <div class="col-12">
+                    <h1>Select tickets</h1>
+                </div>
+                <div class="col-6">
+                    <p><span>Step 1</span> Select the movie ticket you want to see</p>
+                </div>
+                <div class="col-7">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr class="table-head">
+                                <th scope="col"></th>
+                                <th scope="col">2-D</th>
+                                <th scope="col">3-D</th>
+                                <th scope="col">I-Max</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body bg-light">
+                            <tr>
+                                <th>Normal</th>
+                                <td class="text-danger">$10.00 <br><input type="radio" name="option" id="option1"></td>
+                                <td class="text-danger">$15.00 <br><input type="radio" name="option" id="option2"></td>
+                                <td class="text-danger">$20.00 <br><input type="radio" name="option" id="option2"></td>
+                            </tr>
+                            <tr>
+                                <th>Student</th>
+                                <td class="text-danger">$7.00 <br><input type="radio" name="option" id="option2"></td>
+                                <td class="text-danger">$13.00 <br><input type="radio" name="option" id="option2"></td>
+                                <td class="text-danger">$18.00 <br><input type="radio" name="option" id="option2"></td>
+                            </tr>
+                            <tr>
+                                <th>Premium</th>
+                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option2"></td>
+                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option2"></td>
+                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option2"></td>
+                            </tr>
+
+
+                        </tbody>
+
+
+
+                    </table>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="bottom-footer shadow d-flex align-items-center justify-content-center">
+                <img class="" src="assets/images/logo.png" alt="logo">
+                <div class="bot-footer-right">
+                    <span class="text-light">2020 Envision Cinema All rights reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
