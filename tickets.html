@@ -29,10 +29,9 @@
             <nav class="navbar d-md-flex d-none shadow p-0 m-0">
                 <img class="" src="assets/images/logo.png" alt="logo">
                 <div class="center-nav nav text-center">
-                    <a class="font-weight-bold text-secondary" href="#">Home</a>
-                    <a class="font-weight-bold text-secondary" href="#">Tickets</a>
-                    <a class="font-weight-bold text-secondary" href="#">Schedule</a>
-                    <a class="font-weight-bold text-danger " href="#">About</a>
+                    <a class="font-weight-bold text-secondary" href="home.html">Home</a>
+                    <a class="font-weight-bold text-danger" href="tickets.html">Tickets</a>
+                    <a class="font-weight-bold text-secondary" href="about.html">About</a>
                 </div>
                 <a class="text-danger" href="#"><span class="p-2 px-5 border border-danger d-inline-block log-in">LOG
                         IN</span></a>
@@ -40,108 +39,109 @@
         </div>
     </header>
     <main>
-        <div class="container-fluid">
-            <img class="position-absolute d-md-none option" src="assets/icons/menu-abierto.svg" alt="option">
+        <form action="#">
+            <div class="container-fluid">
+                <img class="position-absolute d-md-none option" src="assets/icons/menu-abierto.svg" alt="option">
 
-            <div class="dropdown position-absolute hidden d-md-none">
-                <a class="btn btn-secondary hide dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                </a>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">Home</a>
-                    <a class="dropdown-item" href="#">Tickets</a>
-                    <a class="dropdown-item" href="#">Schedule</a>
-                    <a class="dropdown-item active" href="#">About</a>
-                    <a class="dropdown-item" href="#">Log In</a>
-                </div>
-            </div>
-
-            <!-- TICKETS SECTION -->
-            <div class="tickets row row-cols-1 justify-content-center text-center no-gutters shadow">
-                <div class="col-12">
-                    <h1 class="display-h2">Select tickets</h1>
-                </div>
-                <div class="step-2 col-4 border rounded-pill ">
-                    <p class="pt-2"><span class="text-danger mr-2">Step 1</span> Select the movie ticket you want to see
-                    </p>
-                </div>
-
-                <div class="w-100"></div>
-
-                <div class="col-7">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr class="table-head">
-                                <th scope="col"></th>
-                                <th scope="col">2-D</th>
-                                <th scope="col">3-D</th>
-                                <th scope="col">I-Max</th>
-                            </tr>
-                        </thead>
-                        <tbody class="table-body bg-light">
-                            <tr>
-                                <th>Normal</th>
-                                <td class="text-danger">$10.00 <br><input type="radio" name="option" id="option1"></td>
-                                <td class="text-danger">$15.00 <br><input type="radio" name="option" id="option2"></td>
-                                <td class="text-danger">$20.00 <br><input type="radio" name="option" id="option3"></td>
-                            </tr>
-                            <tr>
-                                <th>Student</th>
-                                <td class="text-danger">$7.00 <br><input type="radio" name="option" id="option4"></td>
-                                <td class="text-danger">$13.00 <br><input type="radio" name="option" id="option5"></td>
-                                <td class="text-danger">$18.00 <br><input type="radio" name="option" id="option6"></td>
-                            </tr>
-                            <tr>
-                                <th>Premium</th>
-                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option7"></td>
-                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option8"></td>
-                                <td class="text-danger">$0 <br><input type="radio" name="option" id="option9"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- PROMO SECTION -->
-
-            <div class="promo row row-cols-1 justify-content-center align-items-center text-center no-gutters">
-                <div class="col-6">
-                    <h2>Select Your Lunch</h2>
-                </div>
-
-                <div class="w-100"></div>
-
-                <div class="step-2 col-4 border rounded-pill align-items-center justify-content-center mb-4">
-                    <p class="pt-2"><span class="text-danger mr-2">Step 1</span> Select your preferred popcorn promo.
-                    </p>
-
-                </div>
-                <div class="col-9">
-                    <div>
-                        <h3 class="popcorns mb-0">Popcorns Promo</h3>
+                <div class="dropdown position-absolute hidden d-md-none">
+                    <a class="btn btn-secondary hide dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="home.html">Home</a>
+                        <a class="dropdown-item active" href="tickets.html">Tickets</a>
+                        <a class="dropdown-item" href="about.html">About</a>
                     </div>
-                    <div class="menu d-flex justify-content-center border align-items-center mb-4">
-                        <div class="mx-5"><span>menu 1 <input type="radio" name="menu" id="menu1"></span></div>
-                        <div class="mx-5"><span>menu 2 <input type="radio" name="menu" id="menu2"></span></div>
-                        <div class="mx-5"><span>menu 3 <input type="radio" name="menu" id="menu3"></span></div>
-                        <div class="mx-5"><span>menu 4 <input type="radio" name="menu" id="menu4"></span></div>
+                </div>
+
+                <!-- TICKETS SECTION -->
+                <div class="tickets row row-cols-1 justify-content-center text-center no-gutters shadow">
+                    <div class="col-12">
+                        <h1 class="h2 mt-5 mb-3">Select tickets</h1>
+                    </div>
+                    <div class="step-2 col-7 border rounded-pill mb-3">
+                        <p class="pt-2"><span class="text-danger mr-2">Step 1</span> Select the movie ticket you want to
+                            see
+                        </p>
                     </div>
 
+                    <div class="w-100"></div>
+
+                    <div class="col-7 mb-4">
+                        <table class="table table-bordered table-sm">
+                            <thead>
+                                <tr class="table-head">
+                                    <th scope="col"></th>
+                                    <th scope="col">2-D</th>
+                                    <th scope="col">3-D</th>
+                                    <th scope="col">I-Max</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-body bg-light">
+                                <tr>
+                                    <th>Normal</th>
+                                    <td class="text-danger">$10.00 <br><input type="radio" name="option" id="option1">
+                                    </td>
+                                    <td class="text-danger">$15.00 <br><input type="radio" name="option" id="option2">
+                                    </td>
+                                    <td class="text-danger">$20.00 <br><input type="radio" name="option" id="option3">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Student</th>
+                                    <td class="text-danger">$7.00 <br><input type="radio" name="option" id="option4">
+                                    </td>
+                                    <td class="text-danger">$13.00 <br><input type="radio" name="option" id="option5">
+                                    </td>
+                                    <td class="text-danger">$18.00 <br><input type="radio" name="option" id="option6">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Premium</th>
+                                    <td class="text-danger">$0 <br><input type="radio" name="option" id="option7"></td>
+                                    <td class="text-danger">$0 <br><input type="radio" name="option" id="option8"></td>
+                                    <td class="text-danger">$0 <br><input type="radio" name="option" id="option9"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div>
+
+                <!-- PROMO SECTION -->
+                <div
+                    class="promo row row-cols-1 shadow justify-content-center align-items-center text-center no-gutters">
+                    <div class="col-6 mt-5 mb-3">
+                        <h2>Select Your Lunch</h2>
+                    </div>
+
+                    <div class="w-100"></div>
+
+                    <div class="step-2 col-7 border rounded-pill align-items-center justify-content-center mb-4">
+                        <p class="pt-2"><span class="text-danger mr-2">Step 1</span> Select your preferred popcorn
+                            promo.
+                        </p>
+
+                    </div>
+                    <div class="col-9 border mb-5">
+                        <div>
+                            <h3 class="popcorns mb-0">Popcorns Promo</h3>
+                        </div>
+                        <div class="menu d-flex justify-content-center align-items-center mb-4">
+                            <div class=""><span>menu 1 <input type="radio" name="popcorn-menu" id="menu1"></span></div>
+                            <div class=""><span>menu 2 <input type="radio" name="popcorn-menu" id="menu2"></span></div>
+                            <div class=""><span>menu 3 <input type="radio" name="popcorn-menu" id="menu3"></span></div>
+                            <div class=""><span>menu 4 <input type="radio" name="popcorn-menu" id="menu4"></span></div>
+                        </div>
+
+                    </div>
+
+                    <div class="mb-3">
+                        <input class="p-" type="button" value="SUBMIT">
+                    </div>
 
                 </div>
-
-
-
-
-
-
-
-
-
             </div>
-        </div>
+        </form>
     </main>
 
     <footer>

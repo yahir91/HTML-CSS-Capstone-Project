@@ -39,12 +39,12 @@ margin-left: 12%;
 }
 
 .center-nav {
-    margin-left: 3%;
-   width: 45%;
+    margin-left: 10%;
+   width: 35%;
 }
 
 .center-nav a{
-    margin: 0 4%;
+    margin: 0 7%;
 }
 
 .log-in {
@@ -166,4 +166,15 @@ margin-left: 12%;
     padding: 10px 30px;
 }
 
+header, main, footer {
+    min-width: 360px;
+}
+
+}
+
+@media only screen and (max-width: 676px) {
+
+    .projects {
+        height: 700px;
+    }
 }

@@ -39,12 +39,12 @@ margin-left: 12%;
 }
 
 .center-nav {
-    margin-left: 3%;
-   width: 45%;
+    margin-left: 10%;
+   width: 35%;
 }
 
 .center-nav a{
-    margin: 0 4%;
+    margin: 0 7%;
 }
 
 .log-in {
@@ -101,6 +101,18 @@ margin-left: 12%;
     height: 90px;
 }
 
+.menu div {
+    margin-right: 5%;
+}
+
+input {
+    background-color: #eb5a41;
+    border: none;
+    padding: 10px 60px;
+    color: white;   
+    font-family: 'Lato', sans-serif;
+}
+
 
 
 /* FOOTER */
@@ -122,5 +134,19 @@ margin-left: 12%;
 /* MEDIA QUERY */
 
 
-@media only screen and (max-width: 590px) {
+@media only screen and (max-width: 700px) {
+    .step-2 {
+        height: 70px;
+    }
+
+    main {
+        min-width: 360px;
+    }
+
+    footer {
+        min-width: 360px;
+    }
+
+
+
 }
