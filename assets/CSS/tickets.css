@@ -1,72 +1,72 @@
 body {
-    max-width: 1400px;
-    margin: 0 auto !important;
+  max-width: 1400px;
+  margin: 0 auto !important;
 }
 
 @font-face {
-    font-family: "cocogoose";
-    src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf)
+  font-family: "cocogoose";
+  src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf);
 }
 
 /* HEADER */
 
 a {
-    text-decoration: none!important;
+  text-decoration: none !important;
 }
 
-.top-header{
-    height: 30px;
-    background-color: #3e3e3e;
-    font-family: 'Lato', sans-serif;
+.top-header {
+  height: 30px;
+  background-color: #3e3e3e;
+  font-family: "Lato", sans-serif;
 }
 
 .top-header img {
-    width: 17px;
+  width: 17px;
 }
 
 .right-topnav {
-    margin-right: 90px;
+  margin-right: 90px;
 }
 
 .navbar {
-    color: #a1a1a1;
-    height: 80px
+  color: #a1a1a1;
+  height: 80px;
 }
 
 .navbar img {
-width:100px;
-margin-left: 12%;
+  width: 100px;
+  margin-left: 12%;
 }
 
 .center-nav {
-    margin-left: 10%;
-   width: 35%;
+  margin-left: 10%;
+  width: 35%;
 }
 
-.center-nav a{
-    margin: 0 7%;
+.center-nav a {
+  margin: 0 7%;
 }
 
 .log-in {
-    border-width: 10px !important;
-    margin-right: 30px;
+  border-width: 10px !important;
+  margin-right: 30px;
 }
 
 .option {
-    width: 70px;
-    height: 50px;
-    top: 2%;
-    left: 4%;
+  width: 70px;
+  height: 50px;
+  top: 2%;
+  left: 4%;
 }
 
 .hidden {
-    top: 2%;
-    left: 6%;
-    z-index:4;
+  top: 2%;
+  left: 6%;
+  z-index: 4;
 }
 
 .hide {
-    opacity: 0
+  opacity: 0;
 }
 
 /* MAIN */
@@ -74,79 +74,72 @@ margin-left: 12%;
 /* TICKETS SECTION */
 
 .tickets {
-    background-color: #f7f7f7;
-    
+  background-color: #f7f7f7;
 }
 
 .table-head {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 /* PROMO SECTION */
 
 .step-2 {
-    height: 50px;
-    box-sizing: border-box;
+  height: 50px;
+  box-sizing: border-box;
 }
 
 .promo {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .popcorns {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 
 .menu {
-    height: 90px;
+  height: 90px;
 }
 
 .menu div {
-    margin-right: 5%;
+  margin-right: 5%;
 }
 
 input {
-    background-color: #eb5a41;
-    border: none;
-    padding: 10px 60px;
-    color: white;   
-    font-family: 'Lato', sans-serif;
+  background-color: #eb5a41;
+  border: none;
+  padding: 10px 60px;
+  color: white;
+  font-family: "Lato", sans-serif;
 }
-
-
 
 /* FOOTER */
 
 .bottom-footer {
-    height: 200px;
-    background-color: #3e3e3e;
+  height: 200px;
+  background-color: #3e3e3e;
 }
 
 .bottom-footer img {
-    width: 150px;
-    margin-right: 5%;
+  width: 150px;
+  margin-right: 5%;
 }
 
 .bot-footer-right {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 /* MEDIA QUERY */
 
-
 @media only screen and (max-width: 700px) {
-    .step-2 {
-        height: 70px;
-    }
+  .step-2 {
+    height: 70px;
+  }
 
-    main {
-        min-width: 360px;
-    }
+  main {
+    min-width: 360px;
+  }
 
-    footer {
-        min-width: 360px;
-    }
-
-
-
+  footer {
+    min-width: 360px;
+  }
 }

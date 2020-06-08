@@ -1,180 +1,177 @@
 body {
-    max-width: 1400px;
-    margin: 0 auto !important;
+  max-width: 1400px;
+  margin: 0 auto !important;
 }
 
 @font-face {
-    font-family: "cocogoose";
-    src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf)
+  font-family: "cocogoose";
+  src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf);
 }
 
 /* HEADER */
 
 a {
-    text-decoration: none!important;
+  text-decoration: none !important;
 }
 
-.top-header{
-    height: 30px;
-    background-color: #3e3e3e;
-    font-family: 'Lato', sans-serif;
+.top-header {
+  height: 30px;
+  background-color: #3e3e3e;
+  font-family: "Lato", sans-serif;
 }
 
 .top-header img {
-    width: 17px;
+  width: 17px;
 }
 
 .right-topnav {
-    margin-right: 90px;
+  margin-right: 90px;
 }
 
 .navbar {
-    color: #a1a1a1;
-    height: 80px
+  color: #a1a1a1;
+  height: 80px;
 }
 
 .navbar img {
-width:100px;
-margin-left: 12%;
+  width: 100px;
+  margin-left: 12%;
 }
 
 .center-nav {
-    margin-left: 10%;
-   width: 35%;
+  margin-left: 10%;
+  width: 35%;
 }
 
-.center-nav a{
-    margin: 0 7%;
+.center-nav a {
+  margin: 0 7%;
 }
 
 .log-in {
-    border-width: 10px !important;
-    margin-right: 30px;
+  border-width: 10px !important;
+  margin-right: 30px;
 }
 
 .option {
-    width: 70px;
-    height: 50px;
-    top: 2%;
-    left: 4%;
+  width: 70px;
+  height: 50px;
+  top: 2%;
+  left: 4%;
 }
 
 .hidden {
-    top: 2%;
-    left: 6%;
-    z-index:4;
+  top: 2%;
+  left: 6%;
+  z-index: 4;
 }
 
 .hide {
-    opacity: 0
+  opacity: 0;
 }
 
 /* MAIN */
 
 .main {
-    background-color: #f7f7f7;
-    height: 600px;
+  background-color: #f7f7f7;
+  height: 600px;
 }
 
 .title {
-    height: 100px;
+  height: 100px;
 }
 
 .main h1 {
-    font-family: 'cocogoose', sans-serif;
-    color: #ec5242;
+  font-family: "cocogoose", sans-serif;
+  color: #ec5242;
 }
 
 .about {
-    background-color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
 }
 
 .contact {
-    height: 150px;
-    font-family: 'Lato', sans-serif;
+  height: 150px;
+  font-family: "Lato", sans-serif;
 }
 
 /* LOGO SECTION */
 
 .logo-section {
-    font-family: 'Lato', sans-serif;
-    height: 400px;
+  font-family: "Lato", sans-serif;
+  height: 400px;
 }
 
 .logo-section img {
-    width: 400px;
-    padding: 10px 90px;
+  width: 400px;
+  padding: 10px 90px;
 }
 
 /* PROJECTS SECTION */
 
 .projects {
-    height: 450px;
+  height: 450px;
 }
 
 .project-img {
-    background-image: url(../images/cinema1.jpg);
-    width: 300px;
-    height: 200px;
-    font-family: 'Lato', sans-serif;
-    background-size: cover;
+  background-image: url(../images/cinema1.jpg);
+  width: 300px;
+  height: 200px;
+  font-family: "Lato", sans-serif;
+  background-size: cover;
 }
 
 .project-img-2 {
-    background-image: url(../images/cinema2.jpg);
-    width: 300px;
-    height: 200px;
-    font-family: 'Lato', sans-serif;
-    background-size: cover;
+  background-image: url(../images/cinema2.jpg);
+  width: 300px;
+  height: 200px;
+  font-family: "Lato", sans-serif;
+  background-size: cover;
 }
-
 
 /* FOOTER */
 
 .bottom-footer {
-    height: 200px;
-    background-color: #3e3e3e;
+  height: 200px;
+  background-color: #3e3e3e;
 }
 
 .bottom-footer img {
-    width: 150px;
-    margin-right: 5%;
+  width: 150px;
+  margin-right: 5%;
 }
 
 .bot-footer-right {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 /* MEDIA QUERY */
 
-
 @media only screen and (max-width: 590px) {
-
-.main {
+  .main {
     padding-top: 30px;
-        height: 850px;
-}
+    height: 850px;
+  }
 
-.logo-section {
+  .logo-section {
     height: 500px;
-}
+  }
 
-.logo-section img {
+  .logo-section img {
     width: 200px;
     padding: 10px 30px;
-}
+  }
 
-header, main, footer {
+  header,
+  main,
+  footer {
     min-width: 360px;
-}
-
+  }
 }
 
 @media only screen and (max-width: 676px) {
-
-    .projects {
-        height: 700px;
-    }
+  .projects {
+    height: 700px;
+  }
 }
