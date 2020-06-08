@@ -2,19 +2,13 @@
 
 > This project was built for the HTML & CSS Capstone Project is based on an online website for a cinema premier. It has three pages, the homepage, about and tickets pages.
 
-
-
 ## Screenshots
-
 
 ![HomePage](assets/images/home.png)
 
-
 ![TicketsPage](assets/images/tickets.png)
 
-
 ![AboutPage](assets/images/about.png)
-
 
 ## Built With
 
@@ -29,7 +23,11 @@
 
 ## Live Demo
 
--  [Live Demo Link](https://raw.githack.com/yahir91/HTML-CSS-Capstone-Project/development/home.html)
+- [Live Demo Link](https://raw.githack.com/yahir91/HTML-CSS-Capstone-Project/development/home.html)
+
+## Video Presentation
+
+- [Project Presentation](https://www.loom.com/share/709fa90ac21e4b7faca3935fdbe6e57a)
 
 ## Getting Started
 
@@ -39,7 +37,7 @@ Setup your machine setup
 
 ### Prerequisites
 
-  > All the prerequisites are optional
+> All the prerequisites are optional
 
 - Git
 - Bootstrap
@@ -47,6 +45,7 @@ Setup your machine setup
 ### Setup
 
 - Follow the link below to install git.
+
   > [download git](https://git-scm.com/downloads)
 
 - Follow the link below to setup HTML validator.
@@ -55,7 +54,7 @@ Setup your machine setup
   > To get a local copy up and running follow these simple example steps.
 
 1. Open the terminal comand line window
-2. ``` git clone https://github.com/yahir91/HTML-CSS-Capstone-Project.git```
+2. `git clone https://github.com/yahir91/HTML-CSS-Capstone-Project.git`
 3. Open the home.html with your favorite browser
 4. Enjoy!
 
@@ -86,4 +85,5 @@ Give a ⭐️ if you like this project!
 This project is [MIT](LICENSE) licensed.
 
 ## Credits
+
 📄💻 Layouts design by <a href="https://www.behance.net/adagio07" target="_blank">Cindy Shin in Behance</a>
