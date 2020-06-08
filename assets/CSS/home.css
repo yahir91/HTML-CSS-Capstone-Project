@@ -91,7 +91,7 @@ a {
 .main-content img {
   opacity: 0.3;
   height: 770px;
-  object-fit: cover; 
+  object-fit: cover;
   object-position: center center;
 }
 
