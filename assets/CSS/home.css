@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "cocogoose";
+  src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf);
+}
+
+/* HEADER */
+
+a {
+  text-decoration: none !important;
+}
+
+.top-header {
+  height: 30px;
+  background-color: #3e3e3e;
+  font-family: "Lato", sans-serif;
+}
+
+.top-header img {
+  width: 17px;
+}
+
+.right-topnav {
+  margin-right: 90px;
+}
+
+.navbar {
+  color: #a1a1a1;
+  height: 80px;
+}
+
+.navbar img {
+  width: 100px;
+  margin-left: 12%;
+}
+
+.center-nav {
+  width: 35%;
+}
+
+.center-nav a {
+  margin: 0 6%;
+  color: #d3d3d3;
+}
+
+.home {
+  color: #ec5242 !important;
+}
+
+.log-in {
+  border-width: 10px !important;
+  margin-right: 30px;
+}
+
+.option {
+  width: 70px;
+  height: 50px;
+  top: 2%;
+  left: 4%;
+}
+
+.hidden {
+  top: 2%;
+  left: 6%;
+  z-index: 4;
+}
+
+.hide {
+  opacity: 0;
+}
+
+/* MAIN */
+
+/* FIRST SECTION */
+
+.main-content {
+  height: 770px;
+}
+
+.main-text {
+  margin-left: 15%;
+}
+
+.main-text h1,
+.main-text h2 {
+  color: #ec5242;
+  font-family: "cocogoose", sans-serif;
+  font-weight: 900;
+}
+
+.main-content img {
+  width: 100%;
+  opacity: 0.3;
+  height: 770px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.cont-text {
+  border: 3px solid rgb(238, 233, 233) !important;
+  padding: 15px;
+  max-width: 600px;
+  background-color: #f8f8f8;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.date {
+  font-family: "cocogoose", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #272a31;
+}
+
+/* SECOND SECTION */
+
+.shops {
+  height: 450px;
+  background-color: #272a31;
+}
+
+.section {
+  height: 250px;
+  background-color: #3e4148;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.section img {
+  width: 100px;
+  height: 100px;
+}
+
+.section h3 {
+  color: #ec5242;
+  font-size: 20px;
+}
+
+.section p {
+  font-size: 12px;
+}
+
+/* THIRD SECTION */
+
+.featured {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+}
+
+.featured img {
+  width: 140px;
+  height: 140px;
+}
+
+.featured h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.featured p {
+  color: #ec5242;
+}
+
+.gray-square {
+  z-index: -1;
+  top: -10px;
+  left: -2px;
+  width: 70px !important;
+  height: 70px !important;
+}
+
+/* FOOTER */
+
+.top-footer {
+  height: 200px;
+  background-color: #424146;
+}
+
+.footer-heading {
+  height: 100px;
+  padding-top: 30px;
+  color: #98979a;
+  font-family: "Lato", sans-serif;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  padding: 30px 0;
+  flex-wrap: wrap;
+}
+
+.partners img {
+  margin: 0 1%;
+}
+
+.bottom-footer {
+  height: 200px;
+  color: #272a31;
+}
+
+.bottom-footer img {
+  width: 150px;
+  margin-right: 5%;
+}
+
+.bot-footer-right {
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 767px) {
+  .main-text {
+    margin: 0 auto;
+  }
+
+  .cont-text {
+    padding: 15px;
+    max-width: 400px;
+  }
+
+  .partners {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding: 30px 0;
+    flex-wrap: wrap;
+  }
+
+  .top-footer {
+    height: 260px;
+    background-color: #424146;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .shops {
+    height: 690px;
+    background-color: #272a31;
+  }
+
+  .section {
+    height: 140px;
+    background-color: #3e4148;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .featured p {
+    display: none;
+  }
+
+  .main-content h1,
+  .main-content h2 {
+    font-size: 28px;
+  }
+
+  .cont-text {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 20px;
+  }
+
+  header,
+  main,
+  footer {
+    min-width: 360px;
+  }
+}
