@@ -1,8 +1,3 @@
-body {
-  max-width: 1400px;
-  margin: 0 auto !important;
-}
-
 @font-face {
   font-family: "cocogoose";
   src: url(../fonts/COCOGOOSE/Cocogoose_trial.otf);
@@ -39,12 +34,16 @@ a {
 }
 
 .center-nav {
-  margin-left: 10%;
   width: 35%;
 }
 
 .center-nav a {
-  margin: 0 7%;
+  margin: 0 6%;
+  color: #d3d3d3;
+}
+
+.home {
+  color: #ec5242 !important;
 }
 
 .log-in {
@@ -89,6 +88,7 @@ a {
 }
 
 .main-content img {
+  width: 100%;
   opacity: 0.3;
   height: 770px;
   object-fit: cover;
@@ -108,6 +108,7 @@ a {
   font-family: "cocogoose", sans-serif;
   font-size: 24px;
   font-weight: 900;
+  color: #272a31;
 }
 
 /* SECOND SECTION */
@@ -142,6 +143,7 @@ a {
 
 .featured {
   font-family: "Lato", sans-serif;
+  color: #272a31;
 }
 
 .featured img {
@@ -194,6 +196,7 @@ a {
 
 .bottom-footer {
   height: 200px;
+  color: #272a31;
 }
 
 .bottom-footer img {
@@ -244,6 +247,19 @@ a {
 @media only screen and (max-width: 550px) {
   .featured p {
     display: none;
+  }
+
+  .main-content h1,
+  .main-content h2 {
+    font-size: 28px;
+  }
+
+  .cont-text {
+    font-size: 16px;
+  }
+
+  .date {
+    font-size: 20px;
   }
 
   header,
